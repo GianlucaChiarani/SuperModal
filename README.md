@@ -79,7 +79,5 @@ You can use the following options:
 | titleColor  | String  | '#fff' | color property of the title bar. |
 | titleBackground  | String  | '#212529' | background property of the title bar. |
 | closeButton  | Bool  | true | Show the closing button. |
-| closeButtonColor  | String  | '#dc3545' | color property of the close button. |
-| closeButtonHoverColor  | String  | '#bb2d3b' | color property on mouse hover of the close button. |
 | closeButtonIcon  | String  | 'fa fa-times' | Close button icon class. |
 | lazyLoading | Bool | false | Enable lazy loading of images in the modal. |

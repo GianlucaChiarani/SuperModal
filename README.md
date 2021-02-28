@@ -45,9 +45,9 @@ $(function($) {
     $.supermodal();
 });
 ```
-## Settings
-You can customize the look and feel of modals through a set of general and specific settings.
-The general settings are set like this:
+## Options
+You can customize the functionality and appearance of modals through a set of general and specific options.
+The general options are set like this:
 ```
 $(function($) {
     $.supermodal({
@@ -57,25 +57,29 @@ $(function($) {
 });
 ```
 
-It is possible to overwrite the general settings by adding data-modal-[SETTING NAME] attributes on the open element:
+It is possible to overwrite the general options by adding data-modal-[SETTING NAME] attributes on the open element:
 ```
 <div data-modal="mymodal" data-modal-title="Modal Title" data-modal-maxWidth="1024px" data-modal-maxHeight="100%">Click here!</div>
 ```
 
-You can use the following settings:
+You can use the following options:
 | Name  | Type | Default | Description |
 | ------------- | ------------- | ------------- | ------------- |
-| backButton  | Bool  | true | |
-| maxWidth  | String  | '1024px'  | |
-| maxHeight  | String  | '100%'  | |
-| background  | String  | '#fff'  | |
-| color  | String  | ''  | |
-| shadow  | String  | '0 0 60px 10px rgba(0, 0, 0, 0.3)'  | |
-| containerBackground  | String  | 'rgba(0,0,0,0.2)' | |
-| containerZIndex  | String  | '100' | ||
-| showTitle  | Bool  | true | |
-| title  | String  | Content ID | |
-| closeButton  | Bool  | true | |
-| closeButtonIcon  | String  | 'fa fa-times' | |
-| titleColor  | String  | '#fff' | |
-| titleBackground  | String  | '#212529' | |
+| backButton  | Bool  | true | Enable closing the modal with the back button of the browser. |
+| maxWidth  | String  | '1024px'  | max-width of the modal. |
+| maxHeight  | String  | '100%'  | max-height of the modal. |
+| background  | String  | '#fff'  | background property of the modal. |
+| color  | String  | ''  | color property of the modal. |
+| shadow  | String  | '0 0 60px 10px rgba(0, 0, 0, 0.3)'  | box-shadow property of the modal. |
+| containerBackground  | String  | 'rgba(0,0,0,0.2)' | background property of the modal container. |
+| containerZIndex  | String  | '100' | z-index property of the modal container.  |
+| containerClass | String | '' | Additional custom classes of the modal container. |
+| showTitle  | Bool  | true | Enable the title bar. |
+| title  | String  | Content ID | Title displayed in the title bar. |
+| titleColor  | String  | '#fff' | color property of the title bar. |
+| titleBackground  | String  | '#212529' | background property of the title bar. |
+| closeButton  | Bool  | true | Show the closing button. |
+| closeButtonColor  | String  | '#dc3545' | color property of the close button. |
+| closeButtonHoverColor  | String  | '#bb2d3b' | color property on mouse hover of the close button. |
+| closeButtonIcon  | String  | 'fa fa-times' | Close button icon class. |
+| lazyLoading | Bool | false | Enable lazy loading of images in the modal. |

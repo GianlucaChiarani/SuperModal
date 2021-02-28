@@ -1,5 +1,7 @@
 # SuperModal
-A simple and lightweight jQuery plugin that lets you create a beautiful, responsive and fully-customizable window dialog / popup with back button support.
+A simple and lightweight jQuery plugin that lets you create a beautiful, responsive and fully-customizable window dialog with back button support.
+
+[Demo](https://codepen.io/GianlucaChiarani/pen/LYbdOzZ)
 
 ## Compatibility
 SuperModal will work with a wide range of modern browsers. The plugin supports any version of jQuery since 1.7.2. 
@@ -32,7 +34,7 @@ The basic usage of SuperModal is pretty easy!
 </div>
 ```
 
-2. Add a data-modal attribute containing the ID of content container on the element that will open the modal on click:
+2. Add a `data-modal` attribute containing the ID of content container on the element that will open the modal on click:
 ```
 <div data-modal="mymodal">Click here!</div>
 ```

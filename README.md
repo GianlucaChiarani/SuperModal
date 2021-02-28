@@ -20,7 +20,7 @@ Secondly, you will need to integrate SuperModal script and css:
 <link rel="stylesheet" href="css/supermodal.css" />
 <script type="text/javascript" src="js/supermodal.js"></script>
 ```
-###CDN
+### CDN
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.8/supermodal.css" />
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.8/supermodal.js"></script>

@@ -71,13 +71,13 @@ You can use the following options:
 | background  | `String`  | `'#fff'`  | background property of the modal. |
 | color  | `String`  | `''`  | color property of the modal. |
 | shadow  | `String`  | `'0 0 60px 10px rgba(0, 0, 0, 0.3)'`  | box-shadow property of the modal. |
-| containerBackground | `String`  | 'rgba(0,0,0,0.2)' | background property of the modal container. |
+| containerBackground | `String`  | `'rgba(0,0,0,0.2)'` | background property of the modal container. |
 | containerZIndex  | `String`  | `'100'` | z-index property of the modal container.  |
 | containerClass | `String` | `''` | Additional custom classes of the modal container. |
 | showTitle  | `Bool`  | `true` | Enable the title bar. |
 | title  | `String`  | Content ID | Title displayed in the title bar. |
 | titleColor  | `String`  | `'#fff'` | color property of the title bar. |
-| titleBackground  | `String`  | '#212529' | background property of the title bar. |
+| titleBackground  | `String`  | `'#212529'` | background property of the title bar. |
 | closeButton  | `Bool`  | `true` | Show the closing button. |
-| closeButtonIcon  | `String`  | 'fa fa-times' | Close button icon class. |
+| closeButtonIcon  | `String`  | `'fa fa-times'` | Close button icon class. |
 | lazyLoading | `Bool` | `false` | Enable lazy loading of images in the modal. |

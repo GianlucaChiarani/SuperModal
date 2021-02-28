@@ -84,16 +84,12 @@
 
             $('body').append('<div id="modal_'+id+'" data-modal-level="'+level+'" class="supermodal-container"><div class="supermodal-window"><div class="supermodal-body">'+modalHtml+'</div></div></div>');
 
-            if (localSettings.title) {
-                if (typeof $(selector).attr('data-title') != 'undefined')
-                    title = $(selector).attr('data-title');
+            if (localSettings.showTitle) {
+                if (localSettings.title)
+                    title = localSettings.title;
                 else
                     title = id;
-            } else {
-                title = '';
-            }
-            
-            if (localSettings.showTitle) {
+                
                 $(modalSelector+' .supermodal-window').prepend('<div class="supermodal-title">'+title+'</div>');
             }
 

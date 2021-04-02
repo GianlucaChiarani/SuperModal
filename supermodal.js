@@ -1,6 +1,6 @@
 /**
  * SuperModal (https://github.com/GianlucaChiarani/SuperModal)
- * @version 0.8 beta1
+ * @version 0.85
  * @author Gianluca Chiarani
  * @license The MIT License (MIT)
  */
@@ -150,7 +150,6 @@
         if (obj.find('.supermodal-window').length) {
             window = obj.find('.supermodal-window');
             container = obj;
-            $('html').css('overflow','auto');
         } else if (obj.parents('.supermodal-window:first').length) {
             window = obj.parents('.supermodal-window:first');
             container = obj.parents('.supermodal-container:first');
@@ -160,6 +159,9 @@
             window.removeClass('show').addClass('hide');
             setTimeout(function() {
                 container.remove();
+                if (!$('.supermodal-container').length) {
+                    $('html').css('overflow','auto');
+                }
             }, 300);
         }
     }

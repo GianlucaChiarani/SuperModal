@@ -150,6 +150,7 @@
         if (obj.find('.supermodal-window').length) {
             window = obj.find('.supermodal-window');
             container = obj;
+            $('html').css('overflow','auto');
         } else if (obj.parents('.supermodal-window:first').length) {
             window = obj.parents('.supermodal-window:first');
             container = obj.parents('.supermodal-container:first');

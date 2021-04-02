@@ -22,8 +22,8 @@ Secondly, you will need to integrate SuperModal script and css:
 ```
 ### CDN
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.8/supermodal.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.8/supermodal.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.85/supermodal.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.85/supermodal.js"></script>
 ```
 
 ## Basic Usage

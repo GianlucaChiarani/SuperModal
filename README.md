@@ -22,8 +22,8 @@ Secondly, you will need to integrate SuperModal script and css:
 ```
 ### CDN
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.89/supermodal.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.89/supermodal.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.90/supermodal.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.90/supermodal.js"></script>
 ```
 
 ## Basic Usage
@@ -77,7 +77,7 @@ The following options are available:
 | maxHeight  | `String`  | `'100%'`  | `max-height` of the modal. |
 | background  | `String`  | `'#fff'`  | `background` of the modal. |
 | color  | `String`  | `''`  | `color` of the modal. |
-| shadow  | `String`  | `'0 0 60px 10px rgba(0, 0, 0, 0.3)'`  | `box-shadow` of the modal. |
+| shadow  | `String`  | `'rgba(17, 12, 46, 0.15) 0px 48px 100px 0px'`  | `box-shadow` of the modal. |
 | containerBackground | `String`  | `'rgba(0,0,0,0.2)'` | `background` of the modal container. |
 | containerZIndex  | `String`  | `'1000'` | `z-index` of the modal container.  |
 | containerClass | `String` | `''` | Additional custom classes of the modal container. |

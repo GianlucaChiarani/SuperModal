@@ -15,7 +15,7 @@
             maxHeight: '100%',
             background: '#fff',
             color: '',
-            shadow: 'rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;',
+            shadow: 'rgba(17, 12, 46, 0.15) 0px 48px 100px 0px',
             containerBackground: 'rgba(0,0,0,0.2)',
             containerClass: '',
             containerZIndex: '1000',

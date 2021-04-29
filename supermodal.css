@@ -1,6 +1,6 @@
 /**
  * SuperModal (https://github.com/GianlucaChiarani/SuperModal)
- * @version 0.85
+ * @version 0.89
  * @author Gianluca Chiarani
  * @license The MIT License (MIT)
  */

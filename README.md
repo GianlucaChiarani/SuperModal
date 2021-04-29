@@ -79,7 +79,7 @@ The following options are available:
 | color  | `String`  | `''`  | `color` of the modal. |
 | shadow  | `String`  | `'0 0 60px 10px rgba(0, 0, 0, 0.3)'`  | `box-shadow` of the modal. |
 | containerBackground | `String`  | `'rgba(0,0,0,0.2)'` | `background` of the modal container. |
-| containerZIndex  | `String`  | `'100'` | `z-index` of the modal container.  |
+| containerZIndex  | `String`  | `'1000'` | `z-index` of the modal container.  |
 | containerClass | `String` | `''` | Additional custom classes of the modal container. |
 | showTitle  | `Bool`  | `true` | Enable the title bar. |
 | title  | `String`  | Content ID | Title displayed in the title bar. |

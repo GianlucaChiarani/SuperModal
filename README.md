@@ -1,5 +1,5 @@
 # SuperModal
-A simple and lightweight jQuery plugin that lets you create a beautiful, responsive and fully-customizable window dialog with back button support.
+An easy-to-use and lightweight jQuery plugin that lets you create a beautiful, responsive and fully-customizable window dialog with back button support.
 
 [Demo](https://codepen.io/GianlucaChiarani/pen/LYbdOzZ)
 

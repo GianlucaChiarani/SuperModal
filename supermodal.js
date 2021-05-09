@@ -25,7 +25,8 @@
             titleBackground: '#212529',
             closeButton: true,
             closeButtonIcon: 'fa fa-times',
-            lazyLoading: false
+            lazyLoading: false,
+            ajax: false
         }, options );
  
         var selector = '[data-modal]';
@@ -59,23 +60,32 @@
 
     function initSuperModal(selector,settings) {
 
-        var id = $(selector).attr('data-modal');
-        var modalDiv = $('#'+id);
-        var title;
         var localSettings = Object.assign({}, settings);
+        var id = $(selector).attr('data-modal');
+        var title = '';
+        var modalHtml;
 
         for ([key, value] of Object.entries(settings)) {
             if ($(selector).attr('data-modal-'+key)) {
                 var val = $(selector).attr('data-modal-'+key);
-                if (val=='true') val=true;
-                if (val=='false') val=false;
+                if (val=='true') val = true;
+                if (val=='false') val = false;
                 localSettings[key] = val;
             } 
         }
 
-        if (modalDiv.length) {
+        if (localSettings.ajax) {
+            $.ajaxSetup({async: false});
+            $.get(id, function (data) {
+                modalHtml = data;
+                id = new Date().getTime();
+            });
+        } else {    
+            modalHtml = $('#'+id).html();
+        }
 
-            var modalHtml = modalDiv.html();
+        if (modalHtml) {
+
             var modalSelector = '.supermodal-container[id="modal_'+id+'"]';
             var level = 1;
 
@@ -131,8 +141,6 @@
                     $(this).attr('src',$(this).attr('data-src'));
                 });
             }
-        } else {
-            console.log('SuperModal: invalid id');
         }
     }
     

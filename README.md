@@ -1,12 +1,11 @@
 # SuperModal
 An easy-to-use and lightweight jQuery plugin that lets you create a beautiful, responsive and fully-customizable window dialog with back button support.
 
-[Demo](https://codepen.io/GianlucaChiarani/pen/LYbdOzZ)
+DEMO 1: [Basic Usage](https://codepen.io/GianlucaChiarani/pen/LYbdOzZ)
+DEMO 2: [AJAX mode](https://codepen.io/GianlucaChiarani/pen/NWpraXg)
 
 ## Compatibility
 SuperModal will work with a wide range of modern browsers. The plugin supports any version of jQuery since 1.7.2. 
-
-The tests are still ongoing. Please report any incompatibilities.
 
 ## Installation
 First of all, you will need a copy of jQuery framework and Font awesome 5 library (optional, for default icons):
@@ -22,8 +21,8 @@ Secondly, you will need to integrate SuperModal script and css:
 ```
 ### CDN
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.90/supermodal.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.90/supermodal.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.95/supermodal.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/SuperModal@0.95/supermodal.js"></script>
 ```
 
 ## Basic Usage
@@ -87,4 +86,5 @@ The following options are available:
 | titleBackground  | `String`  | `'#212529'` | `background` of the title bar. |
 | closeButton  | `Bool`  | `true` | Show the closing button. |
 | closeButtonIcon  | `String`  | `'fa fa-times'` | Close button icon class (e.g. Font Awesome, Bootstrap icons). |
+| ajax | `Bool` | `false` | Enable ajax mode. |
 | lazyLoading | `Bool` | `false` | Enable lazy loading of images on open. |
